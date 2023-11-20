@@ -13,7 +13,7 @@
 
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
-// // Prediction: 
+// Prediction: Joeseph
 
 // // GUESS 2 ///////////////////
 
@@ -30,6 +30,7 @@ console.log("guess1: ", guess1);
 
 const guess2 = `Guess Who is ${firstName}`;
 console.log("guess2: ", guess2);
+// Prediction: Liz and Donna
 
 // // GUESS 3 ///////////////////
 
@@ -61,6 +62,8 @@ console.log("guess2: ", guess2);
 
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
+// Prediction: Chris
+
 
 // // GUESS 4 ///////////////////
 
@@ -76,6 +79,8 @@ console.log("guess2: ", guess2);
 
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
+// Prediction: Gail
+
 
 // // GUESS 5 ///////////////////
 
@@ -99,3 +104,4 @@ console.log("guess2: ", guess2);
 
 // changeGuess();
 // console.log(`Guess Who is ${guess.firstName}`);
+// Prediction : TypeError
