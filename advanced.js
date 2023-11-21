@@ -33,6 +33,7 @@ unitedKingdom = [
  */
 
 const england = unitedKingdom.find(country => country.name === "England");
+// england = unitedKingdom[1];
 england.touristAttractions = ["Seven noses of Soho", "London eye"];
 console.log(england);
 
@@ -41,6 +42,7 @@ console.log(england);
  */
 
 const wales = unitedKingdom.find(country => country.name === "Wales");
+// wales = unitedKingdom[2];
 wales.capital = "Cardiff";
 console.log(wales);
 
@@ -49,6 +51,8 @@ console.log(wales);
  */
 
 const northernIrelandKeys = Object.keys(unitedKingdom.find(country => country.name === "Northern Ireland"));
+// northernIreland = unitedKingdom[3];
+// northernIrelandKeys = Object.keys(northernIreland);
 console.log(northernIrelandKeys);
 
 /**
@@ -64,7 +68,7 @@ let comparisonResult = "";
 
 rankedCountries.forEach((country, index) => {
   if (country.name === "Scotland") {
-    comparisonResult += `${country.name} is ranked ${index + 1} in population. `;
+    comparisonResult += `${country.name} is ranked ${index + 1} in the United Kingdom in terms of population. `;
   } else if (country.population > scotlandPopulation) {
     comparisonResult += `${country.name} has a higher population than Scotland. `;
   } else {
@@ -72,4 +76,22 @@ rankedCountries.forEach((country, index) => {
   }
 });
 
-console.log(comparisonResult);
+console.log(comparisonResult);  
+
+// scotland = unitedKingdom[0];
+
+// if (
+//   scotland.population <
+//   (england.population && wales.population && northernIreland.population)
+// ) {
+//   console.log("Scotland has the lowest population");
+// } else if (
+//   scotland.population >
+//   (england.population || wales.population || northernIreland.population)
+// ) {
+//   console.log("Scotland has the greatest population");
+// } else {
+//   console.log(
+//     "Scotland has a population somewhere in the middle of the listed countries"
+//   );
+// }
